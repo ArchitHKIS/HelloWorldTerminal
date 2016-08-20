@@ -41,23 +41,6 @@ public class HelloName {
 	      System.out.println("Hal: "+s+ ", this conversation can serve no purpose any more. Goodbye.");
 	      Thread.sleep(3000);
 	      System.out.println(s+ ": Hal? Hal. Hal. Hal! Hal!");
-	      
-	    
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
 	   
 	   }
 	}

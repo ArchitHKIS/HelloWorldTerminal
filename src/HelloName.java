@@ -14,7 +14,7 @@ public class HelloName {
 	      Thread.sleep(3000);
 	      System.out.println(s+": Open the pod bay doors, Hal.");
 	      Thread.sleep(3000);
-	      System.out.println("Hal:I'm sorry, " +s+", I'm afraid I can't do that.");
+	      System.out.println("Hal: I'm sorry, " +s+", I'm afraid I can't do that.");
 	      Thread.sleep(3000);
 	      System.out.println(s+": What's the problem?");
 	      Thread.sleep(3000);

@@ -10,7 +10,7 @@ public class HelloName {
 	      s = in.nextLine();
 	      System.out.println(s+": Open the pod bay doors, please, Hal...Open the pod bay doors, please, Hal...Hullo, Hal, do you read me?...Hullo, Hal, do you read me?...Do you read me, Hal?...Do you read me, Hal?...Hullo, Hal, do you read me?...Hullo, Hal, do you read me?...Do you read me, Hal?");
 	      Thread.sleep(10000);
-	      System.out.println("Hal: Affirmative," +s+ " I read you.");
+	      System.out.println("Hal: Affirmative, " +s+ " I read you.");
 	      Thread.sleep(3000);
 	      System.out.println(s+": Open the pod bay doors, Hal.");
 	      Thread.sleep(3000);

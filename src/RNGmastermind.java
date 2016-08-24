@@ -7,10 +7,10 @@ public class RNGmastermind {
 		  float s;
 		  in = new Scanner(System.in);
 		  int poop = (r.nextInt(10-1)+1);
-	for (int i = 0; i < 100; i++)
+	for (int i = 0; i < 10; i++)
     {
         
-        System.out.println("Enter a number from 1-9");
+        System.out.println("Enter a number from 1-9, you have 10 guesses in total!");
         s = in.nextFloat();
         
         if(poop == s) {
@@ -23,7 +23,6 @@ public class RNGmastermind {
         }
         if(poop > s) {
         	System.out.println("Your number is lower.");
-        	
         }
     }
 }

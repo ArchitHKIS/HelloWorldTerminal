@@ -10,7 +10,7 @@ public class RNGmastermind {
 	for (int i = 0; i < 10; i++)
     {
         
-        System.out.println("Enter a number from 1-9, you have 10 guesses in total!");
+        System.out.println("Enter a number from 1-9");
         s = in.nextFloat();
         
         if(poop == s) {

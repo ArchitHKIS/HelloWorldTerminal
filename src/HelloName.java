@@ -10,8 +10,11 @@ public class HelloName {
 	 
 	      System.out.println("Enter your name");
 	      s = in.nextLine();
+	      // substitutes s as the name of the user. 
 	      System.out.println(s+": Open the pod bay doors, please, Hal...Open the pod bay doors, please, Hal...Hullo, Hal, do you read me?...Hullo, Hal, do you read me?...Do you read me, Hal?...Do you read me, Hal?...Hullo, Hal, do you read me?...Hullo, Hal, do you read me?...Do you read me, Hal?");
+	     // s+ prints the user's name and then the rest of the string. 
 	      TimeUnit.SECONDS.sleep(10);
+	      // method used to pause the conversation to make it sound realistic. 
 	      System.out.println("Hal: Affirmative, " +s+ " I read you.");
 	      TimeUnit.SECONDS.sleep(3);
 	      System.out.println(s+": Open the pod bay doors, Hal.");

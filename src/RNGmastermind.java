@@ -22,7 +22,7 @@ public class RNGmastermind {
         float s2 = in.nextFloat();
         float s3 = in.nextFloat();
         
-        if(poop == s) {
+        if(poop == s && poop1 == s1 && poop2 == s2 && poop3 == s3) {
         	System.out.println("You are correct");
  
         	}

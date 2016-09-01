@@ -1,8 +1,14 @@
 
 public class potato {
-	   public potato(String name){
-	      // This constructor has one parameter, name.
-	      System.out.println("Name  :" + name ); 
+	private String name;
+	   public potato(){
+	      name = " "; 
 	   }
-}
-	   
+	   public String getName(){
+		   return this.name;
+	   }
+	   public void setName(String name){
+		   this.name = name;
+	   }
+	   }
+	  

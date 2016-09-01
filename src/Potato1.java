@@ -1,10 +1,14 @@
+import java.util.Scanner;
 public class Potato1{
-public Potato1(String string) {
-		// TODO Auto-generated constructor stub
-	}
-
-public static void main(String []args){
-      // Following statement would create an object myPuppy
-      Potato1 myPotato = new Potato1("tommy");
-   }
+public static void main(String [] args){
+	Scanner scanner = new Scanner(System.in);
+	potato potato = new potato();
+	System.out.println("Enter Name: ");
+	potato.setName(scanner.nextLine());
+	
+	System.out.println("Name: " + potato.getName());
+	
 }
+}
+
+

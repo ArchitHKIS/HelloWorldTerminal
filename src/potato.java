@@ -1,10 +1,10 @@
 
 public class potato {
-	private String name;
-	private int size;
+	String name;
+	int size;
 	   public potato(){
 	      name = " "; 
-	      size = 10;
+	      size = 0;
 	   }
 	   public int getsize(){
 		   return this.size;

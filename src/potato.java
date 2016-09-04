@@ -1,7 +1,7 @@
 
 public class potato {
-	String name;
-	int size;
+	private String name;
+	private int size;
 	   public potato(){
 	      name = " "; 
 	      size = 0;

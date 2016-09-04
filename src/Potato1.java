@@ -1,22 +1,19 @@
 import java.util.Scanner;
 public class Potato1{
-	private static Scanner in;
-	private static Scanner scanner;
 public static void main(String [] args){
-	scanner = new Scanner(System.in);
-	in = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 	potato potato = new potato();
 	System.out.println("Enter Name: ");
-	potato.setName(scanner.nextLine());
+	potato.setName(input.nextLine());
 	
 	System.out.println("Name: " + potato.getname());
 	System.out.println("Enter size: ");
-	potato.setsize(scanner.nextInt());
+		potato.setsize(input.nextInt());
 	
 	System.out.println("Size: " + potato.getsize());
 	System.out.println("Print final results?");
-	String s = in.nextLine();
-	if (s == "final"){
+		String finals = input.nextLine();
+	if (finals == "final"){
 		System.out.println("Name: " +potato.getname());
 		System.out.println("Size: " +potato.getsize());	
 	}	

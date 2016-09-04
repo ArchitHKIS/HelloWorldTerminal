@@ -9,11 +9,11 @@ public class potato {
 	   public int getsize(){
 		   return this.size;
 	   }
+	   public String getname(){
+		   return this.name;
+	   }
 	   public void setsize(int size){
 		   this.size = size;
-	   }
-	   public String getName(){
-		   return this.name;
 	   }
 	   public void setName(String name){
 		   this.name = name;

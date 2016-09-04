@@ -9,7 +9,7 @@ public static void main(String [] args){
 	System.out.println("Enter Name: ");
 	potato.setName(scanner.nextLine());
 	
-	System.out.println("Name: " + potato.getName());
+	System.out.println("Name: " + potato.getname());
 	System.out.println("Enter size: ");
 	potato.setsize(scanner.nextInt());
 	
@@ -17,7 +17,7 @@ public static void main(String [] args){
 	System.out.println("Print final results?");
 	String s = in.nextLine();
 	if (s == "final"){
-		System.out.println("Name: " +potato.getName());
+		System.out.println("Name: " +potato.getname());
 		System.out.println("Size: " +potato.getsize());	
 	}	
 }

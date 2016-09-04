@@ -17,7 +17,7 @@ public static void main(String[] args) {
 
 
       System.out.println("Enter a number from 1-9");
-      for (int i=0; i<totalPoints; i++) {
+      for (int i=0; i<4; i++) {
           int s = in.nextInt();
           userinputs.add(s);
       }
@@ -26,9 +26,10 @@ public static void main(String[] args) {
       for (int i=0; i<4; i++) {
           if (poops.contains(userinputs.get(i))) {
               correct++;
+              
           }
       }
 
-      System.out.println("You have " + correct + "correct numbers");
+      System.out.println("You have " + correct + " correct numbers!");
 
 }}

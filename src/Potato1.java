@@ -17,8 +17,8 @@ public static void main(String [] args){
 	System.out.println("Print final results?");
 	String s = in.nextLine();
 	if (s == "final"){
-		System.out.println("Name: " +potato.name);
-		System.out.println("Size: " +potato.size);	
+		System.out.println("Name: " +potato.getName());
+		System.out.println("Size: " +potato.getsize());	
 	}	
 }
 }

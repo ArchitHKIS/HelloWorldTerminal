@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeUnit;
 public class HelloName {
 	public static void main(String args[]) throws InterruptedException
 	   {

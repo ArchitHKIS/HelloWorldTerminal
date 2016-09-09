@@ -10,7 +10,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 import javax.swing.Timer;
-
 public class CoinTest extends JPanel
    implements ActionListener
 {
@@ -18,8 +17,8 @@ public class CoinTest extends JPanel
 
   public CoinTest ()
   {
-    Image heads = (new ImageIcon("heads.gif")).getImage();
-    Image tails = (new ImageIcon("tails.gif")).getImage();
+    Image heads = (new ImageIcon(this.getClass().getResource("/heads.gif"))).getImage();
+    Image tails = (new ImageIcon(this.getClass().getResource("/tails.gif"))).getImage();
     coin = new Coin(heads, tails);
 
     Timer clock = new Timer(2000, this);
@@ -48,7 +47,7 @@ public class CoinTest extends JPanel
     w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     CoinTest panel = new CoinTest();
-    panel.setBackground(Color.WHITE);
+    panel.setBackground(Color.RED);
     Container c = w.getContentPane();
     c.add(panel);
 

@@ -18,5 +18,6 @@ public class potato {
 	   public void setName(String name){
 		   this.name = name;
 	   }
+	   
 	   }
 	  
